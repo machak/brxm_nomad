@@ -1,0 +1,8 @@
+### IntelliJ IDEA ###
+out/
+target/
+.idea
+artifacts
+mysql
+repositories
+*.iml

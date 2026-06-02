@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server port="-1" shutdown="SHUTDOWN">
+    <Service name="Catalina">
+        <Connector port="{{ env "NOMAD_PORT_http" }}" protocol="HTTP/1.1"
+        connectionTimeout="20000"
+        redirectPort="8443"
+        maxThreads="50" />
+        <Engine name="Catalina" defaultHost="localhost">
+            <Host name="localhost"  appBase="webapps"
+                  unpackWARs="true" autoDeploy="true">
+            </Host>
+        </Engine>
+    </Service>
+</Server>
