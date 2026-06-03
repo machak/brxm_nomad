@@ -11,7 +11,7 @@ https://docs.docker.com/engine/install/
 # Clone project:
 ```shell
 git clone https://github.com/machak/brxm_nomad.git
-cd tomcat_nomad
+cd brxm_nomad
 ```
 # Adjust directories in "config-nomad.hcl" file for volumes:
 
